@@ -1,0 +1,88 @@
+body {
+    background-color: #3f1d5b;
+    font: normal 15pt arial;
+  }
+  
+  header {
+    color: white;
+    text-align: center;
+    padding: 20px;
+    justify-content: center;
+  }
+  
+  section {
+    background-color: #8048af;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    text-align: center;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.537);
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 65vh;
+    overflow: hidden;
+  } 
+  footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+  }
+  
+  #msg {
+    position: absolute;
+    top: 90px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    justify-content: center;
+   
+  }
+  #numInput{
+  text-align: center;
+  padding: 15px;
+  border-radius: 18px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 1);
+  border: none;
+  }
+  .Botao{
+  margin-top: 50px;
+  border-radius: 70px;
+  box-shadow: 5px 5px 5px rgb(0, 0, 1);
+  padding: 8px;
+  width: 100px;
+  height: 50px;
+  border: none;
+  }
+  #tabuada {
+  margin-top: 20px;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  }
+  #tabuada h3 {
+  font-size: 24px;
+  color: #333;
+  }
+  
+  #tabuada table {
+  width: 100px;
+  border-collapse: collapse;
+  }
+  #tabuada th, 
+  #tabuada td { 
+  padding: 8px;
+  text-align: center;
+  border: 1px solid #ccc;
+  }
+  
+  #tabuada th {
+  background-color: #ddd;
+  }
+  
+  #tabuada td {
+  background-color: #fff;
+  }
